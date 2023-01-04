@@ -1,0 +1,7 @@
+.step svg{
+    font-size: 1.6rem;
+}.active{
+    font-weight: bold;
+}.active svg{
+    fill: var(--purple);
+}
