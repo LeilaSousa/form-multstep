@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/form-multstep/static/css/main.eb1d65d5.css",
-    "main.js": "/form-multstep/static/js/main.b84a602b.js",
+    "main.js": "/form-multstep/static/js/main.536e3bab.js",
     "static/js/787.fd9a2301.chunk.js": "/form-multstep/static/js/787.fd9a2301.chunk.js",
     "index.html": "/form-multstep/index.html",
     "main.eb1d65d5.css.map": "/form-multstep/static/css/main.eb1d65d5.css.map",
-    "main.b84a602b.js.map": "/form-multstep/static/js/main.b84a602b.js.map",
+    "main.536e3bab.js.map": "/form-multstep/static/js/main.536e3bab.js.map",
     "787.fd9a2301.chunk.js.map": "/form-multstep/static/js/787.fd9a2301.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb1d65d5.css",
-    "static/js/main.b84a602b.js"
+    "static/js/main.536e3bab.js"
   ]
 }
