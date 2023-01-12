@@ -6,7 +6,7 @@ import { FiSend } from 'react-icons/fi'
 const StepsContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    padding: 0 4rem;
+    padding: 0 3rem;
     text-align: center;
     margin-top: 1rem;
 `

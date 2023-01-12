@@ -6,7 +6,7 @@ const TextContainer = styled.div`
     padding: 3rem;
 `
 const P = styled.p`
-    padding: .5rem 0; 
+    padding: .2rem 0; 
 `
 const emojiData = {
     unsatisfied: <BsEmojiFrownFill/>,

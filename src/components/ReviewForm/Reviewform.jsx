@@ -13,7 +13,7 @@ const Coment = styled.div`
     margin: 3rem;
 `
 const ReviewForm = styled.div`
-    padding: 3rem;
+    padding: 2.5rem;
 `
 const RadioContainer = styled.label`
     text-align: center;
