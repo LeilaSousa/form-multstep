@@ -1,12 +1,15 @@
 import { BsEmojiFrownFill, BsEmojiHeartEyesFill, BsEmojiNeutralFill, BsEmojiSmileFill } from 'react-icons/bs'
 import styled from 'styled-components'
 import Container from '../layout/Container'
-const TextContainer = styled.div`
+const H1= styled.h1`
     text-align: center;
-    padding: 3rem;
+`
+const H2= styled.h2`
+    text-align: center;
 `
 const P = styled.p`
     padding: .2rem 0; 
+    text-align: center;
 `
 const emojiData = {
     unsatisfied: <BsEmojiFrownFill/>,
@@ -18,21 +21,21 @@ const emojiData = {
 const Thanks = ({ data }) => {
     return(
         <Container>
-            <TextContainer>
-            <h1>Falta Pouco</h1>
+        
+            <H1>Falta Pouco</H1>
             <P>A sua opnião é muito importante, em breve você recebrá um cupoom de 10% de desconto para a sua próxima compra.
             </P>
             <P>
             Para concluir sua avaliação clique no botão de Enviar abaixo.
             </P>
-            <h2>{data.name}, aqui está o resumo da sua avaliação:</h2>
+            <H2>{data.name}, aqui está o resumo da sua avaliação:</H2>
             <P><strong>Satisfação com o  produto: </strong>
                 {emojiData[data.review]}
             </P>
             <P><strong>Comentário: </strong>
                 {data.coment}
             </P>
-            </TextContainer>
+           
         </Container>
         )
 }
